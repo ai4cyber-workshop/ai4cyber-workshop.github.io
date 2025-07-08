@@ -536,11 +536,11 @@ a:hover {
   <p style="font-size: 13px; line-height: 1.4; margin: 10px 0 0 0;"><strong>Abstract:</strong> While LLMs have been a technology 
   slowly developing since 2017, it was not until the public demo of ChatGPT in late 2022 that the general public became 
   aware of its true potential, launching a global push to integrate and leverage LLMs across 
-  domains and industries and a proliferation of different open-weight public models. <br>
+  domains and industries and a proliferation of different open-weight public models. <br><br>
   
   While highly useful for defensive cybersecurity, this proliferation was also highly useful 
   for cyber-criminals and APTs. Moreover, the hasty integration of LLM components into existing 
-  software across the board created new, vast, and poorly understood attack surfaces. <br>
+  software across the board created new, vast, and poorly understood attack surfaces. <br><br>
   
   As the defensive and offensive teams are locked in an arms race to best leverage the arrival of 
   LLMs and genAI to their advantage in the ever-changing threat and mitigation landscape, a clear 
@@ -559,8 +559,27 @@ a:hover {
       <p style="margin: 5px 0 0 0; font-size: 12px; color: var(--medium-gray);">Senior Researcher</p>
     </div>
   </div>
-  <h5 style="color: var(--secondary-blue); margin: 15px 0 10px 0;" class="anchored">Keynote 2: title</h5>
-  <p style="font-size: 13px; line-height: 1.4; margin: 10px 0 0 0;"><strong>Abstract:</strong> Content</p>
+  <h5 style="color: var(--secondary-blue); margin: 15px 0 10px 0;" class="anchored">Keynote 2: Can we really use LLM on edge devices for trustable, explainable and accurate malicious code detection: Theory and Practices </h5>
+  <p style="font-size: 13px; line-height: 1.4; margin: 10px 0 0 0;"><strong>Abstract:</strong> Deployable Large Language 
+  models (1B to 7B parameters) work on consumer-available hardware, and their understanding of language can be of 
+  great use to Powershell malware detection and explanation. <br><br>
+  
+  However, such goal is prevented by their lacking of capacity due to the low number of parameters, being outmatched 
+  by large models (especially for those &gt; 70B parameters). Our exploration aims to investigate how to reduce this gap 
+  through the compression of domain knowledge in textual form, thus being includeable into prompts to enhance 
+  deteciton and explanations. Thus, we develop GRAIL, a Powershell knowledge graph expressed as questions that 
+  LLMs can answer while reviewing input Powershell samples. While providing guidance to the model with domain 
+  knowledge, GRAIL acts as a plug-and-play enhancer that provide small LLMs runnable on edge devices with 
+  capabilities comparable with their larger and more powerful counterparts, avoiding the needs of cost-intensive 
+  re-training from scratch. Also, we highlight how the inclusion of GRAIL in prompts outmatches both fine-tuning 
+  and chain-of-thoughts techniques, hence acting as a single action to be taken at deployment time. <br><br>
+  
+  In parallel, our study also dives into adversarial robustness of the LLMs in analyzing codes. We show that 
+  code refracting may change the reasoning out from LLMs, yet without changing malicious functionalities 
+  programmed. This study demonstrates the risk of using LLM for security-critical applications, such as 
+  malware classification. On the other hand, this work paves the way towards how we can improve accordingly 
+  the robustness of LLM for code analysis. 
+</p>
 </div>
 
 </div>
